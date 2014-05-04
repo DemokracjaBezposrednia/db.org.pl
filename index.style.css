@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	text-decoration: inherit;
+	outline: inherit;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 8px;
+	font-size: 1vh;
+}
+
+section {
+	padding: 0 10px;
+}
+
+@media all and (min-height: 100px) { html { font-size: 1px; } }
+@media all and (min-height: 200px) { html { font-size: 2px; } }
+@media all and (min-height: 300px) { html { font-size: 3px; } }
+@media all and (min-height: 400px) { html { font-size: 4px; } }
+@media all and (min-height: 500px) and (min-width: 500px) { html { font-size: 5px; } }
+@media all and (min-height: 600px) and (min-width: 600px) { html { font-size: 6px; } }
+@media all and (min-height: 700px) and (min-width: 700px) { html { font-size: 7px; } }
+@media all and (min-height: 800px) and (min-width: 900px) { html { font-size: 8px; } }
+
+#pagination, .arrow-up, .arrow-down {
+	display: none;
+}
+
+@media all and (min-width: 400px) {
+	section {
+		padding: 0 30px;
+	}
+
+	section > :first-child {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+	}
+}
+
+.turkus, .na-turkus:hover  {
+	color: #30D5C8;
+}
+
+.czarny, .na-czarny:hover {
+	color: black;
+}
+
+.bialy, .na-bialy:hover {
+	color: white;
+}
+
+section {
+	position: relative;
+	padding: 8rem 0;
+}
+
+section.turkus {
+	background-color: #30D5C8;
+	color: white;
+}
+
+section.bialy {
+	color: black;
+}
+
+section.czarny {
+	background-color: black;
+	color: white;
+}
+
+section {
+	font-size: 5rem;
+}
+
+section > div > * {
+	margin-bottom: 2rem;
+}
+
+section > div > h1 {
+	font-size: 8rem;
+}
+
+l {
+	display: block;
+	padding: 1rem 0;
+}
+
+a[href], *[onclick] {
+	cursor: pointer;
+}
+
+#main a[href]:not(.arrow-up):not(.arrow-down):not(.arrow-left):not(.arrow-right), #main *[onclick] {
+	border-bottom: 1px solid;
+}
+
+.font6  { font-size:  6rem; }
+.font7  { font-size:  7rem; }
+.font8  { font-size:  8rem; }
+.font9  { font-size:  9rem; }
+.font10 { font-size: 10rem; }
+
+#polityka-jest-prosta h1, #polityka-jest-prosta-x h1 {
+	font-size: 10rem;
+}
+
+#nie-wierzysz p, #nie-wierzysz-x p {
+	margin-bottom: 4rem;
+}
+
+#nowe-reguly p, #nowe-reguly-x p {
+	font-size: 4rem;
+}
+
+.active-koniec #pagination li a:before {
+	background-color: white !important;
+}
+
+nav {
+	z-index: 1;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 200px;
+
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	transition-duration: 500ms;
+
+	left: -180px;
+	opacity: 0.2;
+}
+
+nav:hover {
+	left: 0;
+	opacity: 1;
+}
+
+nav > div {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	border: 0;
+	height: 80px;
+	width: 80px;
+}
+
+nav > div > div {
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: black;
+	line-height: 40px;
+	width: 40px;
+	font-size: 25px;
+	text-align: center;
+	padding: 0;
+
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	transition-duration: 500ms;
+}
+
+nav > a {
+	display: block;
+	font-size: 2.5rem;
+	line-height: 4rem;
+	padding: 1rem;
+	border-bottom: 1px solid #333;
+	text-align: left;
+
+	-webkit-transition-duration: 200ms;
+	-moz-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+nav > a:hover {
+	background-color: #333;
+}
+
+.active-koniec nav {
+	background-color: white;
+	color: black;
+}
+
+.active-koniec nav > div > div {
+	background-color: white;
+}
+
+.active-koniec nav > a {
+	border-bottom: 1px solid #ccc;
+}
+
+.active-koniec nav > a:hover {
+	background-color: white;
+}

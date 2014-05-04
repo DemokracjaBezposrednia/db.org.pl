@@ -1,0 +1,117 @@
+html, body {
+	overflow: hidden;
+}
+
+html, body, .onepage-wrapper {
+	display: block;
+	position: static;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.onepage-wrapper {
+	position: relative;
+
+	-webkit-transition: -webkit-transform 1000ms ease;
+	-moz-transition: -moz-transform 1000ms ease;
+	-o-transition: -o-transform 1000ms ease;
+	-ms-transition: -ms-transform 1000ms ease;
+	transition: transform 1000ms ease;
+
+	-webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper > section[id] {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#pagination, .arrow-up, .arrow-down, .arrow-left, .arrow-right {
+	display: block;
+}
+
+#pagination {
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	z-index: 5;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+#pagination li {
+	padding: 0;
+}
+
+#pagination li a {
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+#pagination li a::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+
+	background-color: rgba(0,0,0,0.85);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	-ms-transition-duration: 500ms;
+	transition-duration: 500ms;
+
+	transform: scale(0.2);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	-o-transform: scale(0.2);
+	-ms-transform: scale(0.2);
+}
+
+#pagination li a.active::before {
+	transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+}
+
+.arrow-down, .arrow-up, .arrow-left, .arrow-right {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	vertical-align: middle;
+}
+
+.arrow-down {
+	top: auto; bottom: 0; padding-bottom: 1rem;
+}
+
+.arrow-up {
+	top: 0; bottom: auto; padding-top: 1rem;
+}
+
+.arrow-left {
+	left: 0; right: auto; padding-left: 1rem; text-align: left;
+	width: 5rem;
+}
+
+.arrow-right {
+	left: auto; right: 0; padding-right: 1rem; text-align: right;
+	width: 5rem;
+}
+
+.arrow-left::before, .arrow-right::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
