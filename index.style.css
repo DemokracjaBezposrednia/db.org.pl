@@ -130,3 +130,9 @@ a[href], *[onclick] {
 .active-koniec #pagination li a:before {
 	background-color: white !important;
 }
+
+#spot .arrow-down, #spot-x .arrow-down, #spot .arrow-up, #spot-x .arrow-up {
+	width: 20%;
+	min-width: 100px;
+	margin: 0 auto;
+}
