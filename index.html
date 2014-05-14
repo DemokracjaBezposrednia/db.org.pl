@@ -6,7 +6,8 @@
 	</title>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
-	<link rel="stylesheet" href="/index.style.css?v1"/>
+	<link rel="stylesheet" href="/index.style.css?v3"/>
+	<link rel="stylesheet" href="/nav.css?v1"/>
 	<link rel="stylesheet" href="/onepage-scroll.css?v1" media="screen and (min-width: 400px)"/>
 	<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script src="/jquery.hashnavig.js?v1"></script>
@@ -133,17 +134,27 @@
 </div>
 
 <nav>
-	<div><div><i class="fa fa-bars"></i></div></div>
-	<a href="/">Główna</a>
-	<a href="/program/">Program</a>
-	<a href="/?q=node/69">Pytania</a>
-	<a href="/sites/default/files/statut_db_2013-12-14_tekst-jednolity.pdf">Statut</a>
-	<a href="/?q=dokumenty">Dokumenty</a>
-	<a href="/okregi/">Struktury</a>
-	<a href="/?q=Zarząd">Zarząd</a>
-	<a href="#koniec">Kontakt</a>
-	<a href="http://pe2014.pkw.gov.pl/pl/komitety/view/40">Wybory do PE</a>
-	<a href="#co-mozesz">Zacznij działać!</a>
+	<div class="nav-icons">
+		<div id="menu-toggle"><i class="fa fa-bars"></i><i class="fa fa-times"></i></div>
+		<a href="http://db.org.pl/"><i class="fa fa-home"></i></a>
+		<a href="https://www.facebook.com/DemokracjaBezposrednia" target="_blank"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.youtube.com/user/DBPartia" target="_blank"><i class="fa fa-youtube-play"></i></a>
+	</div>
+	<div class="nav-links">
+		<a href="http://db.org.pl/program/">Program</a>
+		<a href="http://db.org.pl/?q=node/69">Pytania</a>
+		<a href="http://db.org.pl/sites/default/files/statut_db_2013-12-14_tekst-jednolity.pdf">Statut</a>
+		<a href="http://db.org.pl/?q=dokumenty">Dokumenty</a>
+		<a href="http://db.org.pl/okregi/">Struktury</a>
+		<a href="http://db.org.pl/?q=Zarz%C4%85d">Zarząd</a>
+		<a href="#koniec">Kontakt</a>
+		<a href="http://pe2014.pkw.gov.pl/pl/komitety/view/40">Wybory do PE</a>
+		<a href="#co-mozesz">Zacznij działać!</a>
+	</div>
 </nav>
+
+<script>
+$("#menu-toggle").click(function(){$("nav").toggleClass("visible");});
+</script>
 
 </body></html>
