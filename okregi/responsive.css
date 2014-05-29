@@ -1,0 +1,410 @@
+/* min - WIKÊKSZE NIZ */
+/* max - MNIEJSZE NIZ */
+@media only screen and (max-width: 400px) {
+	#r { color: pink !important; }
+	
+	.arrow-bottom img, .arrow-top img {
+		width: 60px;
+	}
+
+	.head_name { text-align: center; font-family: 'Open Sans', sans-serif; width: 100%; padding-top: 15px; font-size: 42px; }
+
+	#menu_open {
+		top: 5px;
+		left: 5px;
+	}
+	
+	h1 { font-size: 6rem !important; }
+	p { font-size: 3rem; }
+	
+}
+
+@media only screen and (min-width: 399px) {
+	#r { color: red !important; }
+	
+	.onepage-pagination {
+		display: block;
+	}
+
+	.head_name { text-align: center; font-family: 'Open Sans', sans-serif; width: 100%; padding-top: 15px; font-size: 52px; }
+
+	p { font-size: 3rem; }
+	
+}
+
+/* ################################################################## */
+/* ##**************************************************************## */
+/* ################################################################## */
+
+@media only screen and (min-width: 1681px) {
+	#r { color: silver !important; }
+	
+	#kolka { width: 60%; }
+	#kolka a { width: 240px; height: 240px; }
+	
+	.left_circle { bottom: -5% !important; left: 0; }
+	.right_circle { bottom: -5% !important; right: 0; }
+	.middle_circle { bottom: -8%; left: 50%; margin-left: -125px; }
+	.aa, .bb { font-size: 22px; }
+	.head_name { font-size: 120px !important; }
+	h1.large { font-size: 110px !important; }
+	p { font-size: 30px !important; line-height: 110% !important; }
+	p span { font-size: 34px !important; }
+	.ramka { display: inline-block; font-size: 34px !important; padding: 10px 15px !important; margin: 3px 0 !important; }	
+	
+	.ktkt {
+		line-height: 100% !important;
+	}
+	
+	/* size: 810 */
+	.m660{width:810px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-810.png') no-repeat -1630px 0} .m660 .poland,.m660 .poland-cities{height:770px;width:810px} .m660 .poland{background-position:0 -1580px} .m660 .poland-cities{background-position:-820px -1580px} .m660 .poland .m{margin:9999px 0 0 0} .m660 .poland .m span{font-size:50px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:203px !important;left:72px;top:399px;width:223px}.m660 .pl1.focus .bg{background-position:-2px -88px}.m660 .pl1.active-region .bg{background-position:-9px -1245px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:181px !important;left:254px;top:154px;width:189px}.m660 .pl2.focus .bg{background-position:-881px -480px}.m660 .pl2.active-region .bg{background-position:-846px -1078px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:244px !important;left:582px;top:340px;width:188px}.m660 .pl3.focus .bg{background-position:-1040px -94px}.m660 .pl3.active-region .bg{background-position:-249px -864px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:215px !important;left:50px;top:237px;width:141px}.m660 .pl4.focus .bg{background-position:-875px -4px}.m660 .pl4.active-region .bg{background-position:-1134px -585px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:188px !important;left:316px;top:327px;width:194px}.m660 .pl5.focus .bg{background-position:-662px -595px}.m660 .pl5.active-region .bg{background-position:-821px -867px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:157px !important;left:393px;top:552px;width:174px}.m660 .pl6.focus .bg{background-position:-548px -42px}.m660 .pl6.active-region .bg{background-position:-932px -686px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:302px !important;left:405px;top:192px;width:291px}.m660 .pl7.focus .bg{background-position:-523px -223px}.m660 .pl7.active-region .bg{background-position:-532px -1147px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:146px !important;left:229px;top:472px;width:135px}.m660 .pl8.focus .bg{background-position:-662px -806px}.m660 .pl8.active-region .bg{background-position:-662px -976px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:212px !important;left:546px;top:517px;width:181px}.m660 .pl9.focus .bg{background-position:-836px -243px}.m660 .pl9.active-region .bg{background-position:-1059px -1047px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:268px !important;left:580px;top:73px;width:177px}.m660 .pl10.focus .bg{background-position:-461px -548px}.m660 .pl10.active-region .bg{background-position:-461px -840px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:172px !important;left:213px;top:19px;width:221px}.m660 .pl11.focus .bg{background-position:-3px -586px}.m660 .pl11.active-region .bg{background-position:-3px -782px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:199px !important;left:313px;top:485px;width:146px}.m660 .pl12.focus .bg{background-position:-1092px -362px}.m660 .pl12.active-region .bg{background-position:-1130px -824px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:137px !important;left:438px;top:455px;width:163px}.m660 .pl13.focus .bg{background-position:-250px -543px}.m660 .pl13.active-region .bg{background-position:-250px -704px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:166px !important;left:395px;top:70px;width:276px}.m660 .pl14.focus .bg{background-position:-248px -15px}.m660 .pl14.active-region .bg{background-position:-846px -1283px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:314px !important;left:144px;top:170px;width:249px}.m660 .pl15.focus .bg{background-position:-248px -204px}.m660 .pl15.active-region .bg{background-position:-257px -1134px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:246px !important;left:20px;top:53px;width:215px}.m660 .pl16.focus .bg{background-position:-10px -315px}.m660 .pl16.active-region .bg{background-position:-10px -976px}
+	.m660 .pl1 a{left:194px;top:500px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl2 a{left:358px;top:255px} .m660 .pl3 a{left:686px;top:472px} .m660 .pl4 a{left:116px;top:359px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:116px} .m660 .pl5 a{left:423px;top:430px} .m660 .pl6 a{left:490px;top:640px} .m660 .pl7 a{left:560px;top:353px} .m660 .pl8 a{left:311px;top:555px} .m660 .pl9 a{left:633px;top:633px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:177px} .m660 .pl10 a{left:683px;top:225px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:127px} .m660 .pl11 a{left:334px;top:114px} .m660 .pl12 a{left:391px;top:589px} .m660 .pl13 a{left:529px;top:538px} .m660 .pl14 a{left:540px;top:162px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:270px} .m660 .pl15 a{left:274px;top:343px} .m660 .pl16 a{left:137px;top:186px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:137px}
+	
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px) {
+	#r { color: green !important; }
+	
+	#kolka { width: 60%; }
+	#kolka a { width: 240px; height: 240px; }
+	
+	.left_circle { bottom: -5% !important; left: 0; }
+	.right_circle { bottom: -5% !important; right: 0; }
+	.middle_circle { bottom: -8%; left: 50%; margin-left: -125px; }
+	.aa, .bb { font-size: 22px; }
+	.head_name { font-size: 120px !important; }
+	h1.large { font-size: 90px !important; }
+	p { font-size: 26px !important; line-height: 100% !important; }
+	p span { font-size: 30px !important; }
+	.ramka { display: inline-block; font-size: 34px !important; padding: 10px 15px !important; margin: 3px 0 !important; }	
+	
+	.ktkt {
+		line-height: 90% !important;
+	}
+	
+	/* size: 810 */
+	.m660{width:810px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-810.png') no-repeat -1630px 0} .m660 .poland,.m660 .poland-cities{height:770px;width:810px} .m660 .poland{background-position:0 -1580px} .m660 .poland-cities{background-position:-820px -1580px} .m660 .poland .m{margin:9999px 0 0 0} .m660 .poland .m span{font-size:50px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:203px !important;left:72px;top:399px;width:223px}.m660 .pl1.focus .bg{background-position:-2px -88px}.m660 .pl1.active-region .bg{background-position:-9px -1245px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:181px !important;left:254px;top:154px;width:189px}.m660 .pl2.focus .bg{background-position:-881px -480px}.m660 .pl2.active-region .bg{background-position:-846px -1078px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:244px !important;left:582px;top:340px;width:188px}.m660 .pl3.focus .bg{background-position:-1040px -94px}.m660 .pl3.active-region .bg{background-position:-249px -864px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:215px !important;left:50px;top:237px;width:141px}.m660 .pl4.focus .bg{background-position:-875px -4px}.m660 .pl4.active-region .bg{background-position:-1134px -585px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:188px !important;left:316px;top:327px;width:194px}.m660 .pl5.focus .bg{background-position:-662px -595px}.m660 .pl5.active-region .bg{background-position:-821px -867px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:157px !important;left:393px;top:552px;width:174px}.m660 .pl6.focus .bg{background-position:-548px -42px}.m660 .pl6.active-region .bg{background-position:-932px -686px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:302px !important;left:405px;top:192px;width:291px}.m660 .pl7.focus .bg{background-position:-523px -223px}.m660 .pl7.active-region .bg{background-position:-532px -1147px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:146px !important;left:229px;top:472px;width:135px}.m660 .pl8.focus .bg{background-position:-662px -806px}.m660 .pl8.active-region .bg{background-position:-662px -976px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:212px !important;left:546px;top:517px;width:181px}.m660 .pl9.focus .bg{background-position:-836px -243px}.m660 .pl9.active-region .bg{background-position:-1059px -1047px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:268px !important;left:580px;top:73px;width:177px}.m660 .pl10.focus .bg{background-position:-461px -548px}.m660 .pl10.active-region .bg{background-position:-461px -840px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:172px !important;left:213px;top:19px;width:221px}.m660 .pl11.focus .bg{background-position:-3px -586px}.m660 .pl11.active-region .bg{background-position:-3px -782px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:199px !important;left:313px;top:485px;width:146px}.m660 .pl12.focus .bg{background-position:-1092px -362px}.m660 .pl12.active-region .bg{background-position:-1130px -824px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:137px !important;left:438px;top:455px;width:163px}.m660 .pl13.focus .bg{background-position:-250px -543px}.m660 .pl13.active-region .bg{background-position:-250px -704px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:166px !important;left:395px;top:70px;width:276px}.m660 .pl14.focus .bg{background-position:-248px -15px}.m660 .pl14.active-region .bg{background-position:-846px -1283px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:314px !important;left:144px;top:170px;width:249px}.m660 .pl15.focus .bg{background-position:-248px -204px}.m660 .pl15.active-region .bg{background-position:-257px -1134px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:246px !important;left:20px;top:53px;width:215px}.m660 .pl16.focus .bg{background-position:-10px -315px}.m660 .pl16.active-region .bg{background-position:-10px -976px}
+	.m660 .pl1 a{left:194px;top:500px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl2 a{left:358px;top:255px} .m660 .pl3 a{left:686px;top:472px} .m660 .pl4 a{left:116px;top:359px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:116px} .m660 .pl5 a{left:423px;top:430px} .m660 .pl6 a{left:490px;top:640px} .m660 .pl7 a{left:560px;top:353px} .m660 .pl8 a{left:311px;top:555px} .m660 .pl9 a{left:633px;top:633px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:177px} .m660 .pl10 a{left:683px;top:225px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:127px} .m660 .pl11 a{left:334px;top:114px} .m660 .pl12 a{left:391px;top:589px} .m660 .pl13 a{left:529px;top:538px} .m660 .pl14 a{left:540px;top:162px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:270px} .m660 .pl15 a{left:274px;top:343px} .m660 .pl16 a{left:137px;top:186px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:137px}
+	
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+	#r { color: blue !important; }
+	
+	#kolka { width: 60%; }
+	#kolka a { width: 240px; height: 240px; }
+	
+	.left_circle { bottom: -5% !important; left: -5%; }
+	.right_circle { bottom: -5% !important; right: -5%; }
+	.middle_circle { bottom: -15%; left: 50%; margin-left: -125px; }
+	
+	.aa, .bb { font-size: 22px; }
+	.head_name { font-size: 100px !important; }
+	h1.large { font-size: 80px !important; }
+	p { font-size: 28px !important; }
+	p span { font-size: 34px !important; }
+	.ramka { display: inline-block; font-size: 32px !important; padding: 8px 13px !important; margin: 0 !important; }
+
+	/* size: 810 */
+	.m660{width:810px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-810.png') no-repeat -1630px 0} .m660 .poland,.m660 .poland-cities{height:770px;width:810px} .m660 .poland{background-position:0 -1580px} .m660 .poland-cities{background-position:-820px -1580px} .m660 .poland .m{margin:9999px 0 0 0} .m660 .poland .m span{font-size:50px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:203px !important;left:72px;top:399px;width:223px}.m660 .pl1.focus .bg{background-position:-2px -88px}.m660 .pl1.active-region .bg{background-position:-9px -1245px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:181px !important;left:254px;top:154px;width:189px}.m660 .pl2.focus .bg{background-position:-881px -480px}.m660 .pl2.active-region .bg{background-position:-846px -1078px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:244px !important;left:582px;top:340px;width:188px}.m660 .pl3.focus .bg{background-position:-1040px -94px}.m660 .pl3.active-region .bg{background-position:-249px -864px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:215px !important;left:50px;top:237px;width:141px}.m660 .pl4.focus .bg{background-position:-875px -4px}.m660 .pl4.active-region .bg{background-position:-1134px -585px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:188px !important;left:316px;top:327px;width:194px}.m660 .pl5.focus .bg{background-position:-662px -595px}.m660 .pl5.active-region .bg{background-position:-821px -867px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:157px !important;left:393px;top:552px;width:174px}.m660 .pl6.focus .bg{background-position:-548px -42px}.m660 .pl6.active-region .bg{background-position:-932px -686px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:302px !important;left:405px;top:192px;width:291px}.m660 .pl7.focus .bg{background-position:-523px -223px}.m660 .pl7.active-region .bg{background-position:-532px -1147px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:146px !important;left:229px;top:472px;width:135px}.m660 .pl8.focus .bg{background-position:-662px -806px}.m660 .pl8.active-region .bg{background-position:-662px -976px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:212px !important;left:546px;top:517px;width:181px}.m660 .pl9.focus .bg{background-position:-836px -243px}.m660 .pl9.active-region .bg{background-position:-1059px -1047px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:268px !important;left:580px;top:73px;width:177px}.m660 .pl10.focus .bg{background-position:-461px -548px}.m660 .pl10.active-region .bg{background-position:-461px -840px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:172px !important;left:213px;top:19px;width:221px}.m660 .pl11.focus .bg{background-position:-3px -586px}.m660 .pl11.active-region .bg{background-position:-3px -782px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:199px !important;left:313px;top:485px;width:146px}.m660 .pl12.focus .bg{background-position:-1092px -362px}.m660 .pl12.active-region .bg{background-position:-1130px -824px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:137px !important;left:438px;top:455px;width:163px}.m660 .pl13.focus .bg{background-position:-250px -543px}.m660 .pl13.active-region .bg{background-position:-250px -704px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:166px !important;left:395px;top:70px;width:276px}.m660 .pl14.focus .bg{background-position:-248px -15px}.m660 .pl14.active-region .bg{background-position:-846px -1283px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:314px !important;left:144px;top:170px;width:249px}.m660 .pl15.focus .bg{background-position:-248px -204px}.m660 .pl15.active-region .bg{background-position:-257px -1134px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:246px !important;left:20px;top:53px;width:215px}.m660 .pl16.focus .bg{background-position:-10px -315px}.m660 .pl16.active-region .bg{background-position:-10px -976px}
+	.m660 .pl1 a{left:194px;top:500px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl2 a{left:358px;top:255px} .m660 .pl3 a{left:686px;top:472px} .m660 .pl4 a{left:116px;top:359px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:116px} .m660 .pl5 a{left:423px;top:430px} .m660 .pl6 a{left:490px;top:640px} .m660 .pl7 a{left:560px;top:353px} .m660 .pl8 a{left:311px;top:555px} .m660 .pl9 a{left:633px;top:633px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:177px} .m660 .pl10 a{left:683px;top:225px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:127px} .m660 .pl11 a{left:334px;top:114px} .m660 .pl12 a{left:391px;top:589px} .m660 .pl13 a{left:529px;top:538px} .m660 .pl14 a{left:540px;top:162px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:270px} .m660 .pl15 a{left:274px;top:343px} .m660 .pl16 a{left:137px;top:186px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:137px}
+
+	#menu_home { left: 22px; top: 45px !important }
+	.koord { margin-left: 10px; }
+
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1366px) {
+	#r { color: purple !important; }
+	
+	#kolka { width: 60%; }
+	#kolka a { width: 180px; height: 180px; }
+	.left_circle { bottom: -5% !important; left: 5%; }
+	.right_circle { bottom: -5% !important; right: 5%; }
+	.middle_circle { bottom: -15%; left: 50%; margin-left: -95px; } 
+	.aa, .bb { font-size: 18px; }
+	.head_name { font-size: 80px !important; }
+	h1.large { font-size: 70px !important; }
+	p { font-size: 20px !important; }
+	p span { font-size: 24px !important; }
+	.ramka { display: inline-block; font-size: 24px !important; padding: 6px 10px !important; margin: 0 !important; }
+
+	/* size: 660 */
+	.m660{width:660px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-660.png') no-repeat -1330px 0} .m660 .poland,.m660 .poland-cities{height:630px;width:660px} .m660 .poland{background-position:0 -1060px} .m660 .poland-cities{background-position:-670px -1060px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:40px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:163px !important;left:62px;top:325px;width:179px} .m660 .pl1.focus .bg{background-position:-923px -86px} .m660 .pl1.active-region .bg{background-position:-4px -833px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:145px !important;left:207px;top:130px;width:151px} .m660 .pl2.focus .bg{background-position:-703px -5px} .m660 .pl2.active-region .bg{background-position:-485px -799px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:195px !important;left:470px;top:278px;width:150px} .m660 .pl3.focus .bg{background-position:-1125px -104px} .m660 .pl3.active-region .bg{background-position:-1125px -802px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:172px !important;left:45px;top:196px;width:113px} .m660 .pl4.focus .bg{background-position:-388px -31px} .m660 .pl4.active-region .bg{background-position:-989px -826px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:151px !important;left:257px;top:267px;width:156px} .m660 .pl5.focus .bg{background-position:-522px -4px} .m660 .pl5.active-region .bg{background-position:-661px -793px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:126px !important;left:318px;top:448px;width:140px}.m660 .pl6.focus .bg{background-position:-553px -456px}.m660 .pl6.active-region .bg{background-position:-4px -684px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:242px !important;left:328px;top:160px;width:233px}.m660 .pl7.focus .bg{background-position:-644px -179px}.m660 .pl7.active-region .bg{background-position:-207px -615px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:117px !important;left:187px;top:384px;width:108px}.m660 .pl8.focus .bg{background-position:-337px -879px}.m660 .pl8.active-region .bg{background-position:-206px -879px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:170px !important;left:441px;top:420px;width:145px}.m660 .pl9.focus .bg{background-position:-717px -444px}.m660 .pl9.active-region .bg{background-position:-464px -606px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:215px !important;left:468px;top:65px;width:142px}.m660 .pl10.focus .bg{background-position:-1127px -323px}.m660 .pl10.active-region .bg{background-position:-1127px -562px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:138px !important;left:175px;top:21px;width:177px}.m660 .pl11.focus .bg{background-position:-4px -359px}.m660 .pl11.active-region .bg{background-position:-4px -522px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:160px !important;left:255px;top:394px;width:117px}.m660 .pl12.focus .bg{background-position:-248px -162px}.m660 .pl12.active-region .bg{background-position:-842px -838px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:110px !important;left:355px;top:370px;width:130px}.m660 .pl13.focus .bg{background-position:-205px -345px}.m660 .pl13.active-region .bg{background-position:-205px -481px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:133px !important;left:320px;top:62px;width:221px}.m660 .pl14.focus .bg{background-position:-399px -228px}.m660 .pl14.active-region .bg{background-position:-644px -637px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:251px !important;left:120px;top:142px;width:200px}.m660 .pl15.focus .bg{background-position:-901px -276px}.m660 .pl15.active-region .bg{background-position:-903px -551px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:197px !important;left:20px;top:49px;width:172px}.m660 .pl16.focus .bg{background-position:-51px -122px}.m660 .pl16.active-region .bg{background-position:-358px -386px}
+	.m660 .pl1 a{left:166px;top:412px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:166px} .m660 .pl2 a{left:293px;top:212px} .m660 .pl3 a{left:550px;top:390px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl4 a{left:101px;top:296px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:101px} .m660 .pl5 a{left:345px;top:352px} .m660 .pl6 a{left:398px;top:521px} .m660 .pl7 a{left:450px;top:290px} .m660 .pl8 a{left:256px;top:452px} .m660 .pl9 a{left:515px;top:514px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:145px} .m660 .pl10 a{left:549px;top:187px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:111px} .m660 .pl11 a{left:268px;top:100px} .m660 .pl12 a{left:318px;top:480px} .m660 .pl13 a{left:430px;top:435px} .m660 .pl14 a{left:441px;top:133px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:219px} .m660 .pl15 a{left:229px;top:283px} .m660 .pl16 a{left:116px;top:157px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:116px}
+
+	#menu_home { left: 22px; top: 45px !important }
+	.koord { margin-left: 20px; }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+	#r { color: orange !important; }
+	
+	#kolka { width: 60%; }
+	#kolka a { width: 180px; height: 180px; }
+	.left_circle { bottom: -10% !important; left: 5%; }
+	.right_circle { bottom: -10% !important; right: 5%; }
+	.middle_circle { bottom: -20%; left: 50%; margin-left: -95px; } 
+	.aa, .bb { font-size: 18px; } 
+	.head_name { font-size: 80px !important; }
+	h1.large { font-size: 60px !important; }
+	p { font-size: 20px !important; }
+	p span { font-size: 24px !important; }
+	.ramka { font-size: 24px !important; }
+
+	/* size: 660 */
+	.m660{width:660px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-660.png') no-repeat -1330px 0} .m660 .poland,.m660 .poland-cities{height:630px;width:660px} .m660 .poland{background-position:0 -1060px} .m660 .poland-cities{background-position:-670px -1060px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:40px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:163px !important;left:62px;top:325px;width:179px} .m660 .pl1.focus .bg{background-position:-923px -86px} .m660 .pl1.active-region .bg{background-position:-4px -833px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:145px !important;left:207px;top:130px;width:151px} .m660 .pl2.focus .bg{background-position:-703px -5px} .m660 .pl2.active-region .bg{background-position:-485px -799px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:195px !important;left:470px;top:278px;width:150px} .m660 .pl3.focus .bg{background-position:-1125px -104px} .m660 .pl3.active-region .bg{background-position:-1125px -802px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:172px !important;left:45px;top:196px;width:113px} .m660 .pl4.focus .bg{background-position:-388px -31px} .m660 .pl4.active-region .bg{background-position:-989px -826px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:151px !important;left:257px;top:267px;width:156px} .m660 .pl5.focus .bg{background-position:-522px -4px} .m660 .pl5.active-region .bg{background-position:-661px -793px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:126px !important;left:318px;top:448px;width:140px}.m660 .pl6.focus .bg{background-position:-553px -456px}.m660 .pl6.active-region .bg{background-position:-4px -684px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:242px !important;left:328px;top:160px;width:233px}.m660 .pl7.focus .bg{background-position:-644px -179px}.m660 .pl7.active-region .bg{background-position:-207px -615px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:117px !important;left:187px;top:384px;width:108px}.m660 .pl8.focus .bg{background-position:-337px -879px}.m660 .pl8.active-region .bg{background-position:-206px -879px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:170px !important;left:441px;top:420px;width:145px}.m660 .pl9.focus .bg{background-position:-717px -444px}.m660 .pl9.active-region .bg{background-position:-464px -606px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:215px !important;left:468px;top:65px;width:142px}.m660 .pl10.focus .bg{background-position:-1127px -323px}.m660 .pl10.active-region .bg{background-position:-1127px -562px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:138px !important;left:175px;top:21px;width:177px}.m660 .pl11.focus .bg{background-position:-4px -359px}.m660 .pl11.active-region .bg{background-position:-4px -522px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:160px !important;left:255px;top:394px;width:117px}.m660 .pl12.focus .bg{background-position:-248px -162px}.m660 .pl12.active-region .bg{background-position:-842px -838px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:110px !important;left:355px;top:370px;width:130px}.m660 .pl13.focus .bg{background-position:-205px -345px}.m660 .pl13.active-region .bg{background-position:-205px -481px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:133px !important;left:320px;top:62px;width:221px}.m660 .pl14.focus .bg{background-position:-399px -228px}.m660 .pl14.active-region .bg{background-position:-644px -637px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:251px !important;left:120px;top:142px;width:200px}.m660 .pl15.focus .bg{background-position:-901px -276px}.m660 .pl15.active-region .bg{background-position:-903px -551px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:197px !important;left:20px;top:49px;width:172px}.m660 .pl16.focus .bg{background-position:-51px -122px}.m660 .pl16.active-region .bg{background-position:-358px -386px}
+	.m660 .pl1 a{left:166px;top:412px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:166px} .m660 .pl2 a{left:293px;top:212px} .m660 .pl3 a{left:550px;top:390px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl4 a{left:101px;top:296px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:101px} .m660 .pl5 a{left:345px;top:352px} .m660 .pl6 a{left:398px;top:521px} .m660 .pl7 a{left:450px;top:290px} .m660 .pl8 a{left:256px;top:452px} .m660 .pl9 a{left:515px;top:514px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:145px} .m660 .pl10 a{left:549px;top:187px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:111px} .m660 .pl11 a{left:268px;top:100px} .m660 .pl12 a{left:318px;top:480px} .m660 .pl13 a{left:430px;top:435px} .m660 .pl14 a{left:441px;top:133px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:219px} .m660 .pl15 a{left:229px;top:283px} .m660 .pl16 a{left:116px;top:157px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:116px}
+
+	#menu_home { left: 22px; top: 50px !important }
+	.koord { margin-left: 20px; }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+	#r { color: silver !important; }
+	
+	.left_panel img { height: auto !important; }
+	
+	.page_2 {
+		position: relative;
+		top: -13px;
+	}
+	
+	#kolka { width: 60%; top: -40px; }
+	#kolka a { width: 180px; height: 180px; }
+	.left_circle { bottom: -15% !important; left: -10%; }
+	.right_circle { bottom: -15% !important; right: -10%; }
+	.middle_circle { bottom: -15% !important; left: 50%; margin-left: -95px; }
+	.aa, .bb { font-size: 18px; }
+	.head_name { font-size: 60px !important; }
+	h1.large { font-size: 50px !important; }
+	p { font-size: 20px !important; }
+	p span { font-size: 24px !important; }
+	.ramka { font-size: 24px !important; }
+	
+	.all_page_2 { position: relative; top: -20px; }
+	
+	/* size: 500 */
+	.m660{width:500px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-500.png') no-repeat -1300px 0} .m660 .poland,.m660 .poland-cities{height:475px;width:500px} .m660 .poland{background-position:0 -686px} .m660 .poland-cities{background-position:-510px -686px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:30px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:122px !important;left:46px;top:243px;width:134px}.m660 .pl1.focus .bg{background-position:-203px -65px}.m660 .pl1.active-region .bg{background-position:-1px -515px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:109px !important;left:155px;top:96px;width:114px}.m660 .pl2.focus .bg{background-position:-360px -45px}.m660 .pl2.active-region .bg{background-position:-162px -528px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:146px !important;left:352px;top:208px;width:113px}.m660 .pl3.focus .bg{background-position:-1033px -79px}.m660 .pl3.active-region .bg{background-position:-4px -345px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:129px !important;left:33px;top:146px;width:85px}.m660 .pl4.focus .bg{background-position:-925px -96px}.m660 .pl4.active-region .bg{background-position:-143px -363px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:113px !important;left:193px;top:199px;width:117px}.m660 .pl5.focus .bg{background-position:-4px -2px}.m660 .pl5.active-region .bg{background-position:-301px -524px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:95px !important;left:239px;top:335px;width:105px}.m660 .pl6.focus .bg{background-position:-552px -59px}.m660 .pl6.active-region .bg{background-position:-252px -407px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:181px !important;left:246px;top:119px;width:175px}.m660 .pl7.focus .bg{background-position:-1101px -285px}.m660 .pl7.active-region .bg{background-position:-4px -140px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:88px !important;left:140px;top:287px;width:81px}.m660 .pl8.focus .bg{background-position:-793px -25px}.m660 .pl8.active-region .bg{background-position:-380px -413px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:127px !important;left:330px;top:314px;width:109px}.m660 .pl9.focus .bg{background-position:-793px -137px}.m660 .pl9.active-region .bg{background-position:-200px -212px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:161px !important;left:351px;top:47px;width:107px}.m660 .pl10.focus .bg{background-position:-1169px -98px}.m660 .pl10.active-region .bg{background-position:-333px -221px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:103px !important;left:131px;top:15px;width:133px}.m660 .pl11.focus .bg{background-position:-974px -534px}.m660 .pl11.active-region .bg{background-position:-440px -534px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:120px !important;left:191px;top:294px;width:88px}.m660 .pl12.focus .bg{background-position:-682px -104px}.m660 .pl12.active-region .bg{background-position:-485px -390px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:83px !important;left:266px;top:276px;width:98px}.m660 .pl13.focus .bg{background-position:-464px -176px}.m660 .pl13.active-region .bg{background-position:-464px -284px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:100px !important;left:240px;top:45px;width:166px}.m660 .pl14.focus .bg{background-position:-785px -460px}.m660 .pl14.active-region .bg{background-position:-596px -460px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:189px !important;left:90px;top:105px;width:150px}.m660 .pl15.focus .bg{background-position:-922px -248px}.m660 .pl15.active-region .bg{background-position:-597px -247px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:148px !important;left:15px;top:35px;width:129px}.m660 .pl16.focus .bg{background-position:-1147px -489px}.m660 .pl16.active-region .bg{background-position:-769px -288px}
+	.m660 .pl1 a{left:125px;top:304px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:125px} .m660 .pl2 a{left:222px;top:163px} .m660 .pl2 a.tooltip-left .tooltip-arrow{left:222px} .m660 .pl3 a{left:414px;top:295px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl4 a{left:78px;top:225px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:78px} .m660 .pl5 a{left:261px;top:266px} .m660 .pl6 a{left:301px;top:392px} .m660 .pl7 a{left:340px;top:219px} .m660 .pl8 a{left:194px;top:341px} .m660 .pl8 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl9 a{left:390px;top:387px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl10 a{left:414px;top:143px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl11 a{left:207px;top:76px} .m660 .pl12 a{left:240px;top:364px} .m660 .pl13 a{left:325px;top:327px} .m660 .pl14 a{left:333px;top:100px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:167px} .m660 .pl15 a{left:173px;top:213px} .m660 .pl15 a.tooltip-left .tooltip-arrow{left:173px} .m660 .pl16 a{left:89px;top:119px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:89px}
+
+	#menu_home { left: 22px; top: 40px !important }
+	.koord { margin-left: 30px; }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+	#r { color: lime !important; }
+	
+	.left_panel img { height: auto !important; }
+	
+	.page_2 {
+		position: relative;
+		top: -13px;
+	}
+	
+	#kolka { width: 100%; top: 20px; }
+	#kolka img { display: none; }
+	#kolka a { width: 170px; height: 170px; position: relative; margin: 0 auto; display: inline-block !important; }
+	.left_circle { bottom: 0; left: 0; }
+	.right_circle { bottom: 0; right: 0; }
+	.middle_circle { bottom: 0; left: 0; }
+	.aa, .bb { font-size: 14px; position: relative; top: 50px; width: 160px !important; margin-left: 5px !important; }
+	.head_name { font-size: 50px !important; }
+	h1.large { font-size: 50px !important; }
+	p { font-size: 26px !important; padding: 0 !important; line-height: 110% !important; }
+	p span { font-size: 32px !important; display: block; }
+	.content-points { line-height: 50px !important; }
+	.ramka { font-size: 17px !important; padding: 10px 20px !important; }
+	.right_panel {
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.left_panel {
+		display: none !important;
+	}
+	
+	.body { height: auto !important }
+	
+	.ktkt {
+		line-height: 100% !important;
+	}
+	
+	.d_cont { padding-bottom: 30px; }
+	.left_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	.right_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	
+	/* size: 500 */
+	.m660{width:500px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-500.png') no-repeat -1300px 0} .m660 .poland,.m660 .poland-cities{height:475px;width:500px} .m660 .poland{background-position:0 -686px} .m660 .poland-cities{background-position:-510px -686px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:30px !important}
+	.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:122px !important;left:46px;top:243px;width:134px}.m660 .pl1.focus .bg{background-position:-203px -65px}.m660 .pl1.active-region .bg{background-position:-1px -515px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:109px !important;left:155px;top:96px;width:114px}.m660 .pl2.focus .bg{background-position:-360px -45px}.m660 .pl2.active-region .bg{background-position:-162px -528px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:146px !important;left:352px;top:208px;width:113px}.m660 .pl3.focus .bg{background-position:-1033px -79px}.m660 .pl3.active-region .bg{background-position:-4px -345px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:129px !important;left:33px;top:146px;width:85px}.m660 .pl4.focus .bg{background-position:-925px -96px}.m660 .pl4.active-region .bg{background-position:-143px -363px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:113px !important;left:193px;top:199px;width:117px}.m660 .pl5.focus .bg{background-position:-4px -2px}.m660 .pl5.active-region .bg{background-position:-301px -524px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:95px !important;left:239px;top:335px;width:105px}.m660 .pl6.focus .bg{background-position:-552px -59px}.m660 .pl6.active-region .bg{background-position:-252px -407px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:181px !important;left:246px;top:119px;width:175px}.m660 .pl7.focus .bg{background-position:-1101px -285px}.m660 .pl7.active-region .bg{background-position:-4px -140px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:88px !important;left:140px;top:287px;width:81px}.m660 .pl8.focus .bg{background-position:-793px -25px}.m660 .pl8.active-region .bg{background-position:-380px -413px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:127px !important;left:330px;top:314px;width:109px}.m660 .pl9.focus .bg{background-position:-793px -137px}.m660 .pl9.active-region .bg{background-position:-200px -212px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:161px !important;left:351px;top:47px;width:107px}.m660 .pl10.focus .bg{background-position:-1169px -98px}.m660 .pl10.active-region .bg{background-position:-333px -221px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:103px !important;left:131px;top:15px;width:133px}.m660 .pl11.focus .bg{background-position:-974px -534px}.m660 .pl11.active-region .bg{background-position:-440px -534px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:120px !important;left:191px;top:294px;width:88px}.m660 .pl12.focus .bg{background-position:-682px -104px}.m660 .pl12.active-region .bg{background-position:-485px -390px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:83px !important;left:266px;top:276px;width:98px}.m660 .pl13.focus .bg{background-position:-464px -176px}.m660 .pl13.active-region .bg{background-position:-464px -284px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:100px !important;left:240px;top:45px;width:166px}.m660 .pl14.focus .bg{background-position:-785px -460px}.m660 .pl14.active-region .bg{background-position:-596px -460px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:189px !important;left:90px;top:105px;width:150px}.m660 .pl15.focus .bg{background-position:-922px -248px}.m660 .pl15.active-region .bg{background-position:-597px -247px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:148px !important;left:15px;top:35px;width:129px}.m660 .pl16.focus .bg{background-position:-1147px -489px}.m660 .pl16.active-region .bg{background-position:-769px -288px}
+	.m660 .pl1 a{left:125px;top:304px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:125px} .m660 .pl2 a{left:222px;top:163px} .m660 .pl2 a.tooltip-left .tooltip-arrow{left:222px} .m660 .pl3 a{left:414px;top:295px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl4 a{left:78px;top:225px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:78px} .m660 .pl5 a{left:261px;top:266px} .m660 .pl6 a{left:301px;top:392px} .m660 .pl7 a{left:340px;top:219px} .m660 .pl8 a{left:194px;top:341px} .m660 .pl8 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl9 a{left:390px;top:387px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl10 a{left:414px;top:143px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl11 a{left:207px;top:76px} .m660 .pl12 a{left:240px;top:364px} .m660 .pl13 a{left:325px;top:327px} .m660 .pl14 a{left:333px;top:100px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:167px} .m660 .pl15 a{left:173px;top:213px} .m660 .pl15 a.tooltip-left .tooltip-arrow{left:173px} .m660 .pl16 a{left:89px;top:119px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:89px}
+
+	#opisy { margin-top: 30px !important; }
+	#map-poland { float: none !important; left: 0 !important; }
+
+	#menu_home { left: 22px; top: 45px !important }
+	.koord { margin-left: 40px; }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+	#r { color: pink !important; }
+	
+	#kolka { width: 100%; top: 10px; }
+	#kolka img { display: none; }
+	#kolka a { width: 170px; height: 170px; position: relative; margin: 0 auto; display: inline-block !important; }
+	.left_circle { bottom: 0; left: 0; }
+	.right_circle { bottom: 0; right: 0; }
+	.middle_circle { bottom: 0; left: 0; }
+	.aa, .bb { font-size: 14px; position: relative; top: 50px; width: 160px !important; margin-left: 5px !important; }
+	.head_name { font-size: 50px !important; }
+	h1 { font-size: 36px !important; }
+	h1.large { font-size: 50px !important; }
+	p { font-size: 22px !important; padding: 0 !important; line-height: 130% !important; }
+	p span { font-size: 24px !important; display: block; }
+	.content-points { line-height: 50px !important; }
+	.ramka { font-size: 16px !important; padding: 10px 20px !important; }
+	.right_panel {
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.left_panel {
+		display: none !important;
+	}
+	
+	.body { height: auto !important }
+	
+	.ktkt {
+		line-height: 100% !important;
+	}
+	
+	.d_cont { padding-bottom: 30px; }
+	.left_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	.right_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	
+/* size: 500 */
+.m660{width:500px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-500.png') no-repeat -1300px 0} .m660 .poland,.m660 .poland-cities{height:475px;width:500px} .m660 .poland{background-position:0 -686px} .m660 .poland-cities{background-position:-510px -686px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:30px !important}
+.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:122px !important;left:46px;top:243px;width:134px}.m660 .pl1.focus .bg{background-position:-203px -65px}.m660 .pl1.active-region .bg{background-position:-1px -515px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:109px !important;left:155px;top:96px;width:114px}.m660 .pl2.focus .bg{background-position:-360px -45px}.m660 .pl2.active-region .bg{background-position:-162px -528px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:146px !important;left:352px;top:208px;width:113px}.m660 .pl3.focus .bg{background-position:-1033px -79px}.m660 .pl3.active-region .bg{background-position:-4px -345px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:129px !important;left:33px;top:146px;width:85px}.m660 .pl4.focus .bg{background-position:-925px -96px}.m660 .pl4.active-region .bg{background-position:-143px -363px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:113px !important;left:193px;top:199px;width:117px}.m660 .pl5.focus .bg{background-position:-4px -2px}.m660 .pl5.active-region .bg{background-position:-301px -524px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:95px !important;left:239px;top:335px;width:105px}.m660 .pl6.focus .bg{background-position:-552px -59px}.m660 .pl6.active-region .bg{background-position:-252px -407px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:181px !important;left:246px;top:119px;width:175px}.m660 .pl7.focus .bg{background-position:-1101px -285px}.m660 .pl7.active-region .bg{background-position:-4px -140px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:88px !important;left:140px;top:287px;width:81px}.m660 .pl8.focus .bg{background-position:-793px -25px}.m660 .pl8.active-region .bg{background-position:-380px -413px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:127px !important;left:330px;top:314px;width:109px}.m660 .pl9.focus .bg{background-position:-793px -137px}.m660 .pl9.active-region .bg{background-position:-200px -212px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:161px !important;left:351px;top:47px;width:107px}.m660 .pl10.focus .bg{background-position:-1169px -98px}.m660 .pl10.active-region .bg{background-position:-333px -221px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:103px !important;left:131px;top:15px;width:133px}.m660 .pl11.focus .bg{background-position:-974px -534px}.m660 .pl11.active-region .bg{background-position:-440px -534px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:120px !important;left:191px;top:294px;width:88px}.m660 .pl12.focus .bg{background-position:-682px -104px}.m660 .pl12.active-region .bg{background-position:-485px -390px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:83px !important;left:266px;top:276px;width:98px}.m660 .pl13.focus .bg{background-position:-464px -176px}.m660 .pl13.active-region .bg{background-position:-464px -284px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:100px !important;left:240px;top:45px;width:166px}.m660 .pl14.focus .bg{background-position:-785px -460px}.m660 .pl14.active-region .bg{background-position:-596px -460px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:189px !important;left:90px;top:105px;width:150px}.m660 .pl15.focus .bg{background-position:-922px -248px}.m660 .pl15.active-region .bg{background-position:-597px -247px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:148px !important;left:15px;top:35px;width:129px}.m660 .pl16.focus .bg{background-position:-1147px -489px}.m660 .pl16.active-region .bg{background-position:-769px -288px}
+.m660 .pl1 a{left:125px;top:304px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:125px} .m660 .pl2 a{left:222px;top:163px} .m660 .pl2 a.tooltip-left .tooltip-arrow{left:222px} .m660 .pl3 a{left:414px;top:295px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl4 a{left:78px;top:225px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:78px} .m660 .pl5 a{left:261px;top:266px} .m660 .pl6 a{left:301px;top:392px} .m660 .pl7 a{left:340px;top:219px} .m660 .pl8 a{left:194px;top:341px} .m660 .pl8 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl9 a{left:390px;top:387px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl10 a{left:414px;top:143px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl11 a{left:207px;top:76px} .m660 .pl12 a{left:240px;top:364px} .m660 .pl13 a{left:325px;top:327px} .m660 .pl14 a{left:333px;top:100px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:167px} .m660 .pl15 a{left:173px;top:213px} .m660 .pl15 a.tooltip-left .tooltip-arrow{left:173px} .m660 .pl16 a{left:89px;top:119px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:89px}
+
+#opisy { margin-top: 30px !important; }
+#map-poland { float: none !important; left: 0 !important; }
+
+#menu_home { left: 15px; top: 32px !important }
+.koord { margin-left: 40px; }
+
+}
+
+@media only screen and (min-width: 361px) (max-width: 500px) {
+	#r { color: black !important; }
+	
+	#kolka { width: 100%; top: 10px; }
+	#kolka img { display: none; }
+	#kolka a { width: 170px; height: 170px; position: relative; margin: 0 auto; display: inline-block !important; }
+	.left_circle { bottom: 0; left: 0; }
+	.right_circle { bottom: 0; right: 0; }
+	.middle_circle { bottom: 0; left: 0; }
+	.aa, .bb { font-size: 14px; position: relative; top: 50px; width: 160px !important; margin-left: 5px !important; }
+	.head_name { font-size: 50px !important; }
+	h1 { font-size: 36px !important; }
+	h1.large { font-size: 50px !important; }
+	p { font-size: 22px !important; padding: 0 !important; line-height: 130% !important; }
+	p span { font-size: 24px !important; display: block; }
+	.content-points { line-height: 50px !important; }
+	.ramka { font-size: 16px !important; padding: 10px 20px !important; }
+	.right_panel {
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.left_panel {
+		display: none !important;
+	}
+	
+	.body { height: auto !important }
+	
+	.ktkt {
+		line-height: 100% !important;
+	}
+	
+	.d_cont { padding-bottom: 30px; }
+	.left_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	.right_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	
+/* size: 500 */
+.m660{width:500px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-500.png') no-repeat -1300px 0} .m660 .poland,.m660 .poland-cities{height:475px;width:500px} .m660 .poland{background-position:0 -686px} .m660 .poland-cities{background-position:-510px -686px} .m660 .poland .m{margin:10007px 0 0 7px} .m660 .poland .m span{font-size:30px !important}
+.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:122px !important;left:46px;top:243px;width:134px}.m660 .pl1.focus .bg{background-position:-203px -65px}.m660 .pl1.active-region .bg{background-position:-1px -515px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:109px !important;left:155px;top:96px;width:114px}.m660 .pl2.focus .bg{background-position:-360px -45px}.m660 .pl2.active-region .bg{background-position:-162px -528px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:146px !important;left:352px;top:208px;width:113px}.m660 .pl3.focus .bg{background-position:-1033px -79px}.m660 .pl3.active-region .bg{background-position:-4px -345px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:129px !important;left:33px;top:146px;width:85px}.m660 .pl4.focus .bg{background-position:-925px -96px}.m660 .pl4.active-region .bg{background-position:-143px -363px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:113px !important;left:193px;top:199px;width:117px}.m660 .pl5.focus .bg{background-position:-4px -2px}.m660 .pl5.active-region .bg{background-position:-301px -524px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:95px !important;left:239px;top:335px;width:105px}.m660 .pl6.focus .bg{background-position:-552px -59px}.m660 .pl6.active-region .bg{background-position:-252px -407px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:181px !important;left:246px;top:119px;width:175px}.m660 .pl7.focus .bg{background-position:-1101px -285px}.m660 .pl7.active-region .bg{background-position:-4px -140px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:88px !important;left:140px;top:287px;width:81px}.m660 .pl8.focus .bg{background-position:-793px -25px}.m660 .pl8.active-region .bg{background-position:-380px -413px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:127px !important;left:330px;top:314px;width:109px}.m660 .pl9.focus .bg{background-position:-793px -137px}.m660 .pl9.active-region .bg{background-position:-200px -212px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:161px !important;left:351px;top:47px;width:107px}.m660 .pl10.focus .bg{background-position:-1169px -98px}.m660 .pl10.active-region .bg{background-position:-333px -221px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:103px !important;left:131px;top:15px;width:133px}.m660 .pl11.focus .bg{background-position:-974px -534px}.m660 .pl11.active-region .bg{background-position:-440px -534px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:120px !important;left:191px;top:294px;width:88px}.m660 .pl12.focus .bg{background-position:-682px -104px}.m660 .pl12.active-region .bg{background-position:-485px -390px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:83px !important;left:266px;top:276px;width:98px}.m660 .pl13.focus .bg{background-position:-464px -176px}.m660 .pl13.active-region .bg{background-position:-464px -284px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:100px !important;left:240px;top:45px;width:166px}.m660 .pl14.focus .bg{background-position:-785px -460px}.m660 .pl14.active-region .bg{background-position:-596px -460px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:189px !important;left:90px;top:105px;width:150px}.m660 .pl15.focus .bg{background-position:-922px -248px}.m660 .pl15.active-region .bg{background-position:-597px -247px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:148px !important;left:15px;top:35px;width:129px}.m660 .pl16.focus .bg{background-position:-1147px -489px}.m660 .pl16.active-region .bg{background-position:-769px -288px}
+.m660 .pl1 a{left:125px;top:304px} .m660 .pl1 a.tooltip-left .tooltip-arrow{left:125px} .m660 .pl2 a{left:222px;top:163px} .m660 .pl2 a.tooltip-left .tooltip-arrow{left:222px} .m660 .pl3 a{left:414px;top:295px} .m660 .pl3 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl4 a{left:78px;top:225px} .m660 .pl4 a.tooltip-left .tooltip-arrow{left:78px} .m660 .pl5 a{left:261px;top:266px} .m660 .pl6 a{left:301px;top:392px} .m660 .pl7 a{left:340px;top:219px} .m660 .pl8 a{left:194px;top:341px} .m660 .pl8 a.tooltip-left .tooltip-arrow{left:194px} .m660 .pl9 a{left:390px;top:387px} .m660 .pl9 a.tooltip-right .tooltip-arrow{right:110px} .m660 .pl10 a{left:414px;top:143px} .m660 .pl10 a.tooltip-right .tooltip-arrow{right:86px} .m660 .pl11 a{left:207px;top:76px} .m660 .pl12 a{left:240px;top:364px} .m660 .pl13 a{left:325px;top:327px} .m660 .pl14 a{left:333px;top:100px} .m660 .pl14 a.tooltip-right .tooltip-arrow{right:167px} .m660 .pl15 a{left:173px;top:213px} .m660 .pl15 a.tooltip-left .tooltip-arrow{left:173px} .m660 .pl16 a{left:89px;top:119px} .m660 .pl16 a.tooltip-left .tooltip-arrow{left:89px}
+
+#opisy { margin-top: 30px !important; }
+#map-poland { float: none !important; left: 0 !important; }
+
+#menu_home { left: 15px; top: 32px !important }
+.koord { margin-left: 40px; }
+
+}
+
+@media only screen and (max-width: 360px) {
+	#r { color: red !important; }
+	
+	.sidr ul li.up .st { font-size: 12px !important; }
+	.sidr ul li.up .nd { font-size: 10px !important; }
+	
+	.bottom_content { font-size: 12px !important; }
+	
+	#kolka { width: 90%; top: 10px; }
+	#kolka img { display: none; }
+	#kolka a { position: relative; line-height: 80% !important; padding: 5px 0 !important; margin: 0 auto; width: 100%; height: auto !important; text-align: center; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; margin-bottom: 6px; }
+	.left_circle { bottom: 0; left: 0; float: left; }
+	.right_circle { bottom: 0; right: 0;float: left;  }
+	.middle_circle { bottom: 0; left: 0; float: left; }
+	.aa, .bb { font-size: 11px; }
+	.head_name { font-size: 24px !important; }
+	h1 { font-size: 22px !important; }
+	h1.large { font-size: 22px !important; }
+	p { font-size: 12px !important; padding: 0 !important; line-height: 100% !important; }
+	p span { font-size: 14px !important; display: block; }
+	.ramka, .content-points l { font-size: 14px !important; display: block; padding: 6px 0 !important; line-height: 90% !important;  }
+	.right_panel {
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.left_panel {
+		display: none !important;
+	}
+	
+	.body { height: auto !important }
+	
+	.ktkt {
+		line-height: 100% !important;
+	}
+	
+	.d_cont { padding-bottom: 30px; }
+	.left_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	.right_panel_outpage { float: none !important; clear: both !important; width: 100% !important; }
+	
+/* size: 270 */
+.m660{width:270px} .m660 .poland,.m660 .poland .bg,.m660 .poland-cities{background:transparent url('cssmap-poland/pl-270.png') no-repeat 0 0} .m660 .poland,.m660 .poland-cities{height:260px;width:270px} .m660 .poland-cities{background-position:-280px 0} .m660 .poland .m{margin:9999px 0 0 -2px} .m660 .poland .m span{font-size:17px !important;padding:0 1px 1px 0}
+.m660 .pl1.focus .bg,.m660 .pl1.active-region .bg{height:70px;left:15px;top:129px;width:76px}.m660 .pl1.focus .bg{background-position:-352px -311px}.m660 .pl1.active-region .bg{background-position:-352px -531px} .m660 .pl2.focus .bg,.m660 .pl2.active-region .bg{height:62px;left:77px;top:46px;width:65px}.m660 .pl2.focus .bg{background-position:-687px -310px}.m660 .pl2.active-region .bg{background-position:-687px -530px} .m660 .pl3.focus .bg,.m660 .pl3.active-region .bg{height:83px;left:188px;top:109px;width:64px}.m660 .pl3.focus .bg{background-position:-348px -410px}.m660 .pl3.active-region .bg{background-position:-348px -630px} .m660 .pl4.focus .bg,.m660 .pl4.active-region .bg{height:74px;left:7px;top:74px;width:48px}.m660 .pl4.focus .bg{background-position:-547px -412px}.m660 .pl4.active-region .bg{background-position:-547px -632px} .m660 .pl5.focus .bg,.m660 .pl5.active-region .bg{height:64px;left:98px;top:104px;width:67px}.m660 .pl5.focus .bg{background-position:-255px -310px}.m660 .pl5.active-region .bg{background-position:-255px -530px} .m660 .pl6.focus .bg,.m660 .pl6.active-region .bg{height:54px;left:124px;top:181px;width:60px}.m660 .pl6.focus .bg{background-position:-166px -310px}.m660 .pl6.active-region .bg{background-position:-166px -530px} .m660 .pl7.focus .bg,.m660 .pl7.active-region .bg{height:103px;left:128px;top:59px;width:99px}.m660 .pl7.focus .bg{background-position:-121px -394px}.m660 .pl7.active-region .bg{background-position:-121px -614px} .m660 .pl8.focus .bg,.m660 .pl8.active-region .bg{height:50px;left:68px;top:154px;width:46px}.m660 .pl8.focus .bg{background-position:-90px -310px}.m660 .pl8.active-region .bg{background-position:-90px -530px} .m660 .pl9.focus .bg,.m660 .pl9.active-region .bg{height:73px;left:176px;top:169px;width:62px}.m660 .pl9.focus .bg{background-position:-625px -416px}.m660 .pl9.active-region .bg{background-position:-625px -636px} .m660 .pl10.focus .bg,.m660 .pl10.active-region .bg{height:92px;left:187px;top:18px;width:61px}.m660 .pl10.focus .bg{background-position:-256px -404px}.m660 .pl10.active-region .bg{background-position:-256px -624px} .m660 .pl11.focus .bg,.m660 .pl11.active-region .bg{height:59px;left:63px;top:0;width:76px}.m660 .pl11.focus .bg{background-position:-582px -310px}.m660 .pl11.active-region .bg{background-position:-582px -530px} .m660 .pl12.focus .bg,.m660 .pl12.active-region .bg{height:68px;left:97px;top:158px;width:50px}.m660 .pl12.focus .bg{background-position:-717px -413px}.m660 .pl12.active-region .bg{background-position:-717px -633px} .m660 .pl13.focus .bg,.m660 .pl13.active-region .bg{height:47px;left:139px;top:148px;width:56px}.m660 .pl13.focus .bg{background-position:-4px -310px}.m660 .pl13.active-region .bg{background-position:-4px -530px} .m660 .pl14.focus .bg,.m660 .pl14.active-region .bg{height:57px;left:125px;top:17px;width:94px}.m660 .pl14.focus .bg{background-position:-458px -311px}.m660 .pl14.active-region .bg{background-position:-458px -531px} .m660 .pl15.focus .bg,.m660 .pl15.active-region .bg{height:107px;left:39px;top:51px;width:85px}.m660 .pl15.focus .bg{background-position:-4px -390px}.m660 .pl15.active-region .bg{background-position:-4px -610px} .m660 .pl16.focus .bg,.m660 .pl16.active-region .bg{height:84px;left:-3px;top:11px;width:73px}.m660 .pl16.focus .bg{background-position:-444px -407px}.m660 .pl16.active-region .bg{background-position:-444px -627px}
+.m660 .pl1 a{left:65px;top:166px}.m660 .pl1 a.tooltip-left .tooltip-arrow{left:65px} .m660 .pl2 a{left:119px;top:86px}.m660 .pl2 a.tooltip-left .tooltip-arrow{left:119px} .m660 .pl3 a{left:228px;top:160px}.m660 .pl3 a.tooltip-right .tooltip-arrow{right:42px} .m660 .pl4 a{left:38px;top:121px}.m660 .pl4 a.tooltip-left .tooltip-arrow{left:38px} .m660 .pl5 a{left:141px;top:146px}.m660 .pl5 a.tooltip-right .tooltip-arrow{right:129px} .m660 .pl6 a{left:165px;top:217px}.m660 .pl6 a.tooltip-right .tooltip-arrow{right:105px} .m660 .pl7 a{left:187px;top:115px}.m660 .pl7 a.tooltip-right .tooltip-arrow{right:83px} .m660 .pl8 a{left:103px;top:185px}.m660 .pl8 a.tooltip-left .tooltip-arrow{left:103px} .m660 .pl9 a{left:212px;top:213px}.m660 .pl9 a.tooltip-right .tooltip-arrow{right:58px} .m660 .pl10 a{left:229px;top:77px}.m660 .pl10 a.tooltip-right .tooltip-arrow{right:41px} .m660 .pl11 a{left:107px;top:35px}.m660 .pl11 a.tooltip-left .tooltip-arrow{left:107px} .m660 .pl12 a{left:131px;top:194px}.m660 .pl12 a.tooltip-left .tooltip-arrow{left:131px} .m660 .pl13 a{left:178px;top:181px}.m660 .pl13 a.tooltip-right .tooltip-arrow{right:92px} .m660 .pl14 a{left:181px;top:51px}.m660 .pl14 a.tooltip-right .tooltip-arrow{right:89px} .m660 .pl15 a{left:85px;top:120px}.m660 .pl15 a.tooltip-left .tooltip-arrow{left:85px} .m660 .pl16 a{left:45px;top:60px}.m660 .pl16 a.tooltip-left .tooltip-arrow{left:45px}
+
+#opisy { margin-top: 10px !important; font-size: 12px !important; }
+#map-poland { float: none !important; left: 0 !important; }
+
+#menu_home { left: 15px; top: 15px !important }
+.koord { margin-left: 50px; }
+
+}
+
+

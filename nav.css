@@ -11,13 +11,14 @@ nav > * > * {
 }
 
 nav {
-	z-index: 1;
+	z-index: 1000;
 	color: white;
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	width: 200px;
 	left: -200px;
+	font-family: "Lato", sans-serif;
 }
 
 nav.visible {
