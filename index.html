@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="/nav.css?v1"/>
 	<link rel="stylesheet" href="/onepage-scroll.css?v1" media="screen and (min-width: 400px)"/>
 	<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="/jquery-ui-1.10.4.custom.min.js"></script>
 	<script src="/jquery.hashnavig.js?v1"></script>
 	<script src="/jquery.onepage-scroll.js?v1"></script>
 	<script src="/index.script.js?v2"></script>
@@ -17,10 +18,10 @@
 	<script src="//www.youtube.com/iframe_api"></script>
 	<meta property="og:title" content="Demokracja Bezpośrednia"/>
 	<meta property="og:description" content="Wiemy, że nie wierzysz już w hasła wyborcze i polityczne obietnice. Dlatego nie zamierzamy Ci ich składać."/>
-	<meta property="og:image" content="http://db.org.pl/OddajeCiGlos.png"/>
+	<meta property="og:image" content="http://db.org.pl/logo-fb.png"/>
 	<meta property="og:url" content="http://db.org.pl/"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<link rel="shortcut icon" href="//db.org.pl/circle.png"/>
+	<link rel="shortcut icon" href="//db.org.pl/cloud.png"/>
 </head>
 <body>
 <div id="fb-root"></div>
@@ -135,13 +136,43 @@
 		<a href="http://db.org.pl/okregi/">Struktury</a>
 		<a href="http://db.org.pl/?q=Zarz%C4%85d">Zarząd</a>
 		<a href="#koniec">Kontakt</a>
-		<a href="http://pe2014.pkw.gov.pl/pl/komitety/view/40">Wybory do PE</a>
 		<a href="#co-mozesz">Zacznij działać!</a>
 	</div>
 </nav>
 
 <script>
 $("#menu-toggle").click(function(){$("nav").toggleClass("visible");});
+
+$(window).on("hashchange", function(){
+	$("#witaj .arrow-down, #witaj-x .arrow-down").stop();
+	$("#spot .arrow-down, #spot-x .arrow-down").stop();
+
+	if (document.location.hash == "#witaj")
+		setTimeout(function(){
+			$("#witaj .arrow-down, #witaj-x .arrow-down").stop();
+			$("#witaj .arrow-down, #witaj-x .arrow-down").effect("shake", {
+				distance: 3,
+				direction: 'down',
+				times: 20
+			}, 12000);
+		}, 1000);
+
+	if (document.location.hash == "#spot")
+		setTimeout(function(){
+			$("#spot .arrow-down, #spot-x .arrow-down").stop();
+			$("#spot .arrow-down, #spot-x .arrow-down").effect("shake", {
+				distance: 3,
+				direction: 'down',
+				times: 5
+			}, 3000);
+		}, 1000);
+});
 </script>
+
+<style>
+#spot .arrow-up, #spot-x .arrow-up {
+	display: none;
+}
+</style>
 
 </body></html>
